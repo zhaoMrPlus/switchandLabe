@@ -31,13 +31,6 @@ class ViewController: UIViewController {
         straightSwitch.isOn = true
         straightSwitch.backgroundColor=UIColor.yellow
         straightSwitch.tintColor=UIColor.green
-//        straightSwitch.addTarget(self, action: Selector("switchValueChange:"), forControlEvents: UIControlEvents.ValueChanged)
-//        birthdayPicker.maximumDate = Date()
-//        
-//        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: Selector.endEditing))
-//        nameTextField.delegate = self
-//        workTextField.delegate = self
-//        
         
         let button = UIButton(frame:CGRect(x:100,y:200,width:300,height:20))
         button.setTitle("xx", for: .normal)
