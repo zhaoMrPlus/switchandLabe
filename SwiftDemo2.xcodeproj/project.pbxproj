@@ -14,6 +14,8 @@
 		6C261D9E200E205900AA9691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C261D9C200E205900AA9691 /* LaunchScreen.storyboard */; };
 		6C261DA9200E205900AA9691 /* SwiftDemo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C261DA8200E205900AA9691 /* SwiftDemo2Tests.swift */; };
 		6C261DB4200E205900AA9691 /* SwiftDemo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C261DB3200E205900AA9691 /* SwiftDemo2UITests.swift */; };
+		6C261DC2200E208700AA9691 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C261DC1200E208700AA9691 /* Tweet.swift */; };
+		6C261DC8200E212E00AA9691 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C261DC7200E212D00AA9691 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6C261DAF200E205900AA9691 /* SwiftDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C261DB3200E205900AA9691 /* SwiftDemo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemo2UITests.swift; sourceTree = "<group>"; };
 		6C261DB5200E205900AA9691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C261DC1200E208700AA9691 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		6C261DC7200E212D00AA9691 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				6C261D93200E205900AA9691 /* AppDelegate.swift */,
 				6C261D95200E205900AA9691 /* ViewController.swift */,
+				6C261DC1200E208700AA9691 /* Tweet.swift */,
+				6C261DC7200E212D00AA9691 /* Helper.swift */,
 				6C261D97200E205900AA9691 /* Main.storyboard */,
 				6C261D9A200E205900AA9691 /* Assets.xcassets */,
 				6C261D9C200E205900AA9691 /* LaunchScreen.storyboard */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					6C261D8F200E205900AA9691 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FUM9FP898F;
 						ProvisioningStyle = Automatic;
 					};
 					6C261DA3200E205900AA9691 = {
@@ -259,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C261DC2200E208700AA9691 /* Tweet.swift in Sources */,
 				6C261D96200E205900AA9691 /* ViewController.swift in Sources */,
 				6C261D94200E205900AA9691 /* AppDelegate.swift in Sources */,
+				6C261DC8200E212E00AA9691 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUM9FP898F;
 				INFOPLIST_FILE = SwiftDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mandb.chirs.SwiftDemo2;
@@ -424,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUM9FP898F;
 				INFOPLIST_FILE = SwiftDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mandb.chirs.SwiftDemo2;
